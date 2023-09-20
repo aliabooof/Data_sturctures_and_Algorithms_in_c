@@ -21,7 +21,7 @@ Let's illustrate Bubble Sort with an example. Consider an unsorted array:
 ```c
 [5, 3, 1, 4, 2]
 ```
-### First Pass:
+- ### First Pass:
 
 Compare 5 and 3. Swap them because 5 > 3.
 Compare 5 and 1. Swap them because 5 > 1.
@@ -29,7 +29,7 @@ Compare 5 and 4. Swap them because 5 > 4.
 Compare 5 and 2. Swap them because 5 > 2.
 The largest element (5) is now at the end of the array.
 
-### Second Pass:
+- ### Second Pass:
 
 Compare 3 and 1. Swap them because 3 > 1.
 Compare 3 and 4. No swap is needed because 3 < 4.
@@ -42,12 +42,12 @@ Compare 3 and 1. Swap them because 3 > 1.
 Compare 3 and 2. Swap them because 3 > 2.
 The third largest element (3) is now in the third-to-last position.
 
-### Fourth Pass:
+- ### Fourth Pass:
 
 Compare 1 and 2. No swap is needed because 1 < 2.
 The fourth largest element (2) is now in the fourth-to-last position.
 
-### Fifth Pass:
+- ### Fifth Pass:
 
 No swaps are needed, indicating that the array is sorted.
 The sorted array is now ```c [1, 2, 3, 4, 5] ```.
@@ -60,7 +60,7 @@ Bubble Sort is not recommended for sorting large arrays or lists due to its inef
 ## Implementation
 You can find a C implementation of the Bubble Sort algorithm in the bubble_sort.c file in this repository.
 
-##Usage
+## Usage
 To use Bubble Sort in your C program, you can include the bubble_sort.c file and call the bubbleSort() function, passing your array and its size as arguments.
 
 ```c
@@ -83,8 +83,8 @@ int main() {
     return 0;
 }
 ```
-##License
-This project is licensed under the MIT License.
+## License
+This project is licensed under the License.
 
 Feel free to use, modify, and distribute the code for educational and open-source purposes.
 
