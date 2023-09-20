@@ -13,6 +13,8 @@ Bubble Sort works by comparing adjacent elements in the array and swapping them 
 - After one pass through the array, the largest element will have "bubbled up" to the end of the array.
 - Repeat steps 1-5 for the remaining unsorted portion of the array (excluding the last element, which is already in its correct position).
 - Continue this process until no more swaps are needed.
+- ![image](https://github.com/aliabooof/Data_sturctures_and_Algorithms_in_c/assets/62174374/1f855057-54de-4255-8d0a-9973e971b87e)
+
 
 ## Example
 
