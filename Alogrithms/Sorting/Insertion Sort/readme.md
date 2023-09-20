@@ -72,7 +72,7 @@ To use Insertion Sort in your C program, you can include the insertion_sort.c fi
 
 ```c
 #include <stdio.h>
-#include "insertion_sort.c"
+#include "insertion_sort.h"
 
 int main() {
     int arr[] = {5, 3, 1, 4, 2};
