@@ -10,6 +10,8 @@ Insertion Sort is a simple sorting algorithm that builds the final sorted array 
 
 Insertion Sort works by repeatedly taking one element from the unsorted part and moving it into its correct position within the sorted part of the array.
 
+![image](https://github.com/aliabooof/Data_sturctures_and_Algorithms_in_c/assets/62174374/6bbc283d-cd4f-4413-9588-d4256be9ee32)
+
 Here are the key steps:
 
 1. Start with the second element (index 1) and consider it as the key.
