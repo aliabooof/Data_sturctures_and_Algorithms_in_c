@@ -26,50 +26,49 @@ Let's illustrate Insertion Sort with an example. Consider an unsorted array:
 ```c
 [5, 3, 1, 4, 2]
 ```
-Start with the second element (key = 3).
-Compare 3 with 5. Since 3 is smaller, shift 5 to the right.
-Array becomes [3, 5, 1, 4, 2].
-Compare 3 with 5. No shift is needed.
-Move to the next key (1).
-Compare 1 with 5. Shift 5 to the right.
-Array becomes [3, 1, 5, 4, 2].
-Compare 1 with 3. Shift 3 to the right.
-Array becomes [1, 3, 5, 4, 2].
-Compare 1 with 3. No shift is needed.
-Move to the next key (4).
-Compare 4 with 5. Shift 5 to the right.
-Array becomes [1, 3, 4, 5, 2].
-Compare 4 with 3. Shift 3 to the right.
-Array becomes [1, 3, 4, 5, 2].
-Compare 4 with 1. Shift 1 to the right.
-Array becomes [1, 3, 4, 5, 2].
-Compare 4 with 3. Shift 3 to the right.
-Array becomes [1, 3, 4, 5, 2].
-Compare 4 with 1. Shift 1 to the right.
-Array becomes [1, 3, 4, 5, 2].
-Compare 4 with 5. No shift is needed.
-Move to the next key (2).
-Compare 2 with 5. Shift 5 to the right.
-Array becomes [1, 3, 4, 2, 5].
-Compare 2 with 4. Shift 4 to the right.
-Array becomes [1, 3, 2, 4, 5].
-Compare 2 with 3. Shift 3 to the right.
-Array becomes [1, 2, 3, 4, 5].
-The sorted array is now [1, 2, 3, 4, 5].
+- Start with the second element (key = 3).
+    Compare 3 with 5. Since 3 is smaller, shift 5 to the right.
+    Array becomes ```[3, 5, 1, 4, 2]```.
+    Compare 3 with 5. No shift is needed.
+- Move to the next key (1).
+    Compare 1 with 5. Shift 5 to the right.
+    Array becomes ```[3, 1, 5, 4, 2]```.
+    Compare 1 with 3. Shift 3 to the right.
+    Array becomes ```[1, 3, 5, 4, 2]```.
+    Compare 1 with 3. No shift is needed.
+- Move to the next key (4).
+    Compare 4 with 5. Shift 5 to the right.
+    Array becomes ```[1, 3, 4, 5, 2]```.
+    Compare 4 with 3. Shift 3 to the right.
+    Array becomes ```[1, 3, 4, 5, 2]```.
+    Compare 4 with 1. Shift 1 to the right.
+    Array becomes ```[1, 3, 4, 5, 2]```.
+    Compare 4 with 3. Shift 3 to the right.
+    Array becomes ```[1, 3, 4, 5, 2]```.
+    Compare 4 with 1. Shift 1 to the right.
+    Array becomes ```[1, 3, 4, 5, 2]```.
+    Compare 4 with 5. No shift is needed.
+- Move to the next key (2).
+    Compare 2 with 5. Shift 5 to the right.
+    Array becomes ```[1, 3, 4, 2, 5]```.
+    Compare 2 with 4. Shift 4 to the right.
+    Array becomes ```[1, 3, 2, 4, 5]```.
+    Compare 2 with 3. Shift 3 to the right.
+    Array becomes ```[1, 2, 3, 4, 5]```.
+- The sorted array is now ```[1, 2, 3, 4, 5]```.
 
-Time Complexity
+## Time Complexity
 Insertion Sort has a time complexity of O(n^2) in the worst and average cases, where 'n' is the number of elements in the array. In the best case (when the array is already sorted), the time complexity is O(n).
 
 Insertion Sort is efficient for small data sets or nearly sorted data but is not recommended for sorting large arrays or lists.
 
-Implementation
+## Implementation
 You can find a C implementation of the Insertion Sort algorithm in the insertion_sort.c file in this repository.
 
-Usage
+## Usage
 To use Insertion Sort in your C program, you can include the insertion_sort.c file and call the insertionSort() function, passing your array and its size as arguments.
 
-c
-Copy code
+```c
 #include <stdio.h>
 #include "insertion_sort.c"
 
@@ -87,7 +86,8 @@ int main() {
 
     return 0;
 }
-License
+```
+## License
 This project is licensed under the MIT License.
 
 Feel free to use, modify, and distribute the code for educational and open-source purposes.
