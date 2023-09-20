@@ -23,8 +23,8 @@ Let's illustrate Bubble Sort with an example. Consider an unsorted array:
 ```
 - ### First Pass:
 
- - Compare 5 and 3. Swap them because 5 > 3.
-  - ``` [3, 5, 1, 4, 2] ```
+  - Compare 5 and 3. Swap them because 5 > 3.
+      - ``` [3, 5, 1, 4, 2] ```
  - Compare 5 and 1. Swap them because 5 > 1.
   -  ``` [3, 1, 5, 4, 2] ```
  - Compare 5 and 4. Swap them because 5 > 4.
