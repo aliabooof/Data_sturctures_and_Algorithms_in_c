@@ -25,19 +25,19 @@ Let's illustrate Selection Sort with an example. Consider an unsorted array:
 - First Pass:
 
 	- Find the minimum element in the unsorted subarray (1 in this case) and swap it with the first element.
-	The sorted subarray becomes [1], and the unsorted subarray becomes ``` [5, 3, 4, 2]```.
+	The sorted subarray becomes ```[1]```, and the unsorted subarray becomes ``` [5, 3, 4, 2]```.
 - Second Pass:
 
 	- Find the minimum element in the unsorted subarray (2 in this case) and swap it with the second element.
-	  The sorted subarray becomes [1, 2], and the unsorted subarray becomes ```[5, 3, 4]```.
+	  The sorted subarray becomes ```[1, 2]```, and the unsorted subarray becomes ```[5, 3, 4]```.
 - Third Pass:
 
 	- Find the minimum element in the unsorted subarray (3 in this case) and swap it with the third element.
-	  The sorted subarray becomes [1, 2, 3], and the unsorted subarray becomes ```[5, 4]```.
+	  The sorted subarray becomes ```[1, 2, 3]```, and the unsorted subarray becomes ```[5, 4]```.
 - Fourth Pass:
 
 	- Find the minimum element in the unsorted subarray (4 in this case) and swap it with the fourth element.
-	  The sorted subarray becomes [1, 2, 3, 4], and the unsorted subarray becomes ```[5]```.
+	  The sorted subarray becomes ```[1, 2, 3, 4]```, and the unsorted subarray becomes ```[5]```.
 - Fifth Pass:
 
 	- Find the minimum element in the unsorted subarray (5 in this case) and swap it with the fifth element.
