@@ -66,7 +66,7 @@ To use Bubble Sort in your C program, you can include the bubble_sort.c file and
 ```c
 Copy code
 #include <stdio.h>
-#include "bubble_sort.c"
+#include "bubble_sort.h"
 
 int main() {
     int arr[] = {5, 3, 1, 4, 2};
