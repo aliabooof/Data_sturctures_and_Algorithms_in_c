@@ -20,39 +20,39 @@ Let's illustrate Selection Sort with an example. Consider an unsorted array:
 ```c
 [5, 3, 1, 4, 2]
 ```
-	- First Pass:
+- First Pass:
 
-	Find the minimum element in the unsorted subarray (1 in this case) and swap it with the first element.
-The sorted subarray becomes [1], and the unsorted subarray becomes [5, 3, 4, 2].
-Second Pass:
+	- Find the minimum element in the unsorted subarray (1 in this case) and swap it with the first element.
+	The sorted subarray becomes [1], and the unsorted subarray becomes ``` [5, 3, 4, 2]```.
+- Second Pass:
 
-Find the minimum element in the unsorted subarray (2 in this case) and swap it with the second element.
-The sorted subarray becomes [1, 2], and the unsorted subarray becomes [5, 3, 4].
-Third Pass:
+	- Find the minimum element in the unsorted subarray (2 in this case) and swap it with the second element.
+	  The sorted subarray becomes [1, 2], and the unsorted subarray becomes ```[5, 3, 4]```.
+- Third Pass:
 
-Find the minimum element in the unsorted subarray (3 in this case) and swap it with the third element.
-The sorted subarray becomes [1, 2, 3], and the unsorted subarray becomes [5, 4].
-Fourth Pass:
+	- Find the minimum element in the unsorted subarray (3 in this case) and swap it with the third element.
+	  The sorted subarray becomes [1, 2, 3], and the unsorted subarray becomes ```[5, 4]```.
+- Fourth Pass:
 
-Find the minimum element in the unsorted subarray (4 in this case) and swap it with the fourth element.
-The sorted subarray becomes [1, 2, 3, 4], and the unsorted subarray becomes [5].
-Fifth Pass:
+	- Find the minimum element in the unsorted subarray (4 in this case) and swap it with the fourth element.
+	  The sorted subarray becomes [1, 2, 3, 4], and the unsorted subarray becomes ```[5]```.
+- Fifth Pass:
 
-Find the minimum element in the unsorted subarray (5 in this case) and swap it with the fifth element.
-The sorted subarray becomes [1, 2, 3, 4, 5], and the unsorted subarray becomes empty.
-The sorted array is now [1, 2, 3, 4, 5].
+	- Find the minimum element in the unsorted subarray (5 in this case) and swap it with the fifth element.
+	  The sorted subarray becomes ```[1, 2, 3, 4, 5]```, and the unsorted subarray becomes empty.
+	   
 
-Time Complexity
+## Time Complexity
 Selection Sort has a time complexity of O(n^2) in all cases (worst-case, average-case, and best-case), where 'n' is the number of elements in the array. It is not recommended for sorting large datasets but is useful for its simplicity and ease of implementation.
 
-Implementation
+## Implementation
 You can find a C implementation of the Selection Sort algorithm in the selection_sort.c file in this repository.
 
-Usage
+## Usage
 To use Selection Sort in your C program, you can include the selection_sort.c file and call the selectionSort() function, passing your array and its size as arguments.
 
-c
-Copy code
+```c
+
 #include <stdio.h>
 #include "selection_sort.c"
 
@@ -70,7 +70,9 @@ int main() {
 
     return 0;
 }
-License
+```
+
+## License
 This project is licensed under the MIT License.
 
 Feel free to use, modify, and distribute the code for educational and open-source purposes.
