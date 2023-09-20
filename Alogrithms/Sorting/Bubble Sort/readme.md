@@ -23,43 +23,43 @@ Let's illustrate Bubble Sort with an example. Consider an unsorted array:
 ```
 - ### First Pass:
 
-- Compare 5 and 3. Swap them because 5 > 3.
-- - ``` [3, 5, 1, 4, 2] ```
-- Compare 5 and 1. Swap them because 5 > 1.
+ - Compare 5 and 3. Swap them because 5 > 3.
+  - ``` [3, 5, 1, 4, 2] ```
+ - Compare 5 and 1. Swap them because 5 > 1.
   -  ``` [3, 1, 5, 4, 2] ```
-- Compare 5 and 4. Swap them because 5 > 4.
-- ```c [3, 1, 4, 5, 2] ```
-- Compare 5 and 2. Swap them because 5 > 2.
-- ```c [3, 1, 4, 2, 5] ```
-- The largest element (5) is now at the end of the array.
+ - Compare 5 and 4. Swap them because 5 > 4.
+  - ``` [3, 1, 4, 5, 2] ```
+ - Compare 5 and 2. Swap them because 5 > 2.
+  - ``` [3, 1, 4, 2, 5] ```
+ - The largest element (5) is now at the end of the array.
 
 - ### Second Pass:
 
-- Compare 3 and 1. Swap them because 3 > 1.
-- ```c [1, 3, 4, 2, 5] ```
-- Compare 3 and 4. No swap is needed because 3 < 4.
-- ```c [1, 3, 4, 2, 5] ```
-- Compare 4 and 2. Swap them because 4 > 2.
-- ```c [1, 3, 2, 4, 5] ```
-- The second largest element (4) is now in the second-to-last position.
+ - Compare 3 and 1. Swap them because 3 > 1.
+  - ``` [1, 3, 4, 2, 5] ```
+ - Compare 3 and 4. No swap is needed because 3 < 4.
+  - ``` [1, 3, 4, 2, 5] ```
+ - Compare 4 and 2. Swap them because 4 > 2.
+  - ``` [1, 3, 2, 4, 5] ```
+ - The second largest element (4) is now in the second-to-last position.
 
 - ### Third Pass:
 
-- Compare 1 and 3. No Swap is needed because 1 < 3.
-- ```c [1, 3, 2, 4, 5] ```
-- Compare 3 and 2. Swap them because 3 > 2.
-- ```c [1, 2, 3, 4, 5] ```
-- The third largest element (3) is now in the third-to-last position.
+ - Compare 1 and 3. No Swap is needed because 1 < 3.
+  - ``` [1, 3, 2, 4, 5] ```
+ - Compare 3 and 2. Swap them because 3 > 2.
+  - ``` [1, 2, 3, 4, 5] ```
+ - The third largest element (3) is now in the third-to-last position.
 
 - ### Fourth Pass:
 
-Compare 1 and 2. No swap is needed because 1 < 2.
-The fourth largest element (2) is now in the fourth-to-last position.
+ - Compare 1 and 2. No swap is needed because 1 < 2.
+ - The fourth largest element (2) is now in the fourth-to-last position.
 
 - ### Fifth Pass:
 
-No swaps are needed, indicating that the array is sorted.
-The sorted array is now ```c [1, 2, 3, 4, 5] ```.
+ - No swaps are needed, indicating that the array is sorted.
+ -The sorted array is now ``` [1, 2, 3, 4, 5] ```.
 
 ## Time Complexity
 Bubble Sort has a time complexity of O(n^2) in the worst and average cases, where 'n' is the number of elements in the array. In the best case (when the array is already sorted), the time complexity is O(n).
