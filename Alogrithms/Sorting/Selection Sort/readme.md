@@ -13,6 +13,8 @@ Here are the key steps:
 - Move the boundary between the sorted and unsorted subarrays one element to the right.
 - Repeat steps 1-3 until the entire array is sorted.
 
+![image](https://github.com/aliabooof/Data_sturctures_and_Algorithms_in_c/assets/62174374/710daad2-48dc-4307-8329-67989d79dbfc)
+
 ## Example
 
 Let's illustrate Selection Sort with an example. Consider an unsorted array:
