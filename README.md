@@ -113,7 +113,7 @@ Please make sure to adhere to the code style and formatting conventions used in 
 
 ## License
 
-This project is licensed under the ![License](https://github.com/aliabooof/Data_sturctures_and_Algorithms_in_c/blob/main/LICENSE.txt). Feel free to use, modify, and distribute the code for educational and open-source purposes.
+This project is licensed under the [License](https://github.com/aliabooof/Data_sturctures_and_Algorithms_in_c/blob/main/LICENSE.txt). Feel free to use, modify, and distribute the code for educational and open-source purposes.
 
 ---
 
